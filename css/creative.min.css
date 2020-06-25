@@ -4383,8 +4383,9 @@ background-position:0 0
 	color: #fff;
 	text-align: center;
 	white-space: nowrap;
-	background-color: #ff8080;
-	transition: width .6s ease
+	/*background-color: #ff8080;*/
+	background: linear-gradient(90deg, red 0%, yellow 15%, lime 30%, cyan 50%, blue 65%, magenta 80%, red 100%);
+	transition: width .3s ease
 }
 
 @media (prefers-reduced-motion:reduce) {
