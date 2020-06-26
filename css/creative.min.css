@@ -364,12 +364,19 @@ p {
 	font-weight: 300;
 }
 
-.content-pic{
-	justify-content: center;max-width: 640px;
+.content-pic img{
+	justify-content: center;
+	max-width: 640px;
+	text-align: center;
+	align-items: center;
+}
+
+.content-pic p {
+	text-align: center;
 }
 
 .pic-caption {
-	text-align: left;
+	text-align: center;
 	font-size: 16px;
 	display: inline-block;
 	line-height: 1.3;
@@ -377,6 +384,17 @@ p {
 	margin: 10px auto;
 	font-weight: 300;
 	font-family: Roboto, "source-han-sans-traditional",sans-serif, 微軟正黑體, 繁黑體, "Microsoft JhengHei", "Microsoft YaHei", "Heiti TC", "LiHei Pro", 新細明體, PMingLiU;
+}
+
+.caption {
+	text-align: center;
+	font-size: 16px;
+	margin: 0;
+}
+
+.pic {
+	text-align: center;
+	margin: .5rem;
 }
 
 @media (max-width:576px) {
@@ -392,8 +410,8 @@ p {
 	width: 100%;
 }
 
-.pic-caption {
-	text-align: left;
+.pic-caption{
+	text-align: center;
 	font-size: 14px;
 	display: inline-block;
 	line-height: 1.3;
