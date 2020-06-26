@@ -276,6 +276,13 @@
 	padding: 2rem;
 }
 
+.btn.name {
+	background: #ca8187;
+	padding: 1rem;
+	margin: 1rem;
+	text-align: center;
+}
+
 /*#story .content.list-group button:hover {
 	border: 1px #AE4951 solid;
 	border-radius: 50%;
