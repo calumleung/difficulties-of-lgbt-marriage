@@ -215,6 +215,38 @@
 	background-color: transparent;
 }
 
+#lgbtandkids
+
+#lgbtandkids .aboutpeople{
+	padding: 0;
+	margin: 1rem;
+}
+
+#lgbtandkids .content.list-group {
+	flex-wrap: wrap;
+	margin: 0;
+	justify-content: space-between;
+	display: flex;
+}
+
+#lgbtandkids .list-group-item-action {
+	width: 1rem;
+	color: #495057;
+	text-align: inherit;
+}
+
+#lgbtandkids .content.list-group button {
+	padding: 2rem;
+	align-items: center;
+	flex-grow: 1;
+	transition: all .3s ease-in-out;
+	border: none
+}
+
+#lgbtandkids .list-group-item.active{
+	background-color: transparent;
+}
+
 @media (max-width: 576px){
 	
 #story .content.list-group button {
@@ -222,6 +254,17 @@
 }
 
 #story .aboutpeople {
+		margin: 0;
+		padding: 0;
+		font-size: 16px;
+	}
+
+
+#lgbtandkids .content.list-group button {
+	padding: 1rem;
+}
+
+#lgbtandkids .aboutpeople {
 		margin: 0;
 		padding: 0;
 		font-size: 16px;
