@@ -112,6 +112,20 @@
 	line-height: 1;
 }
 
+/*lgbt story section*/
+.btn.name {
+	background-color: #ca8187;
+	color: white;
+	border-color:#ca8187;
+	min-width: 20%;
+	scroll-behavior: auto;
+	width: 70%;
+	margin: 0rem 0rem .1rem .1rem;
+	font-size: 16px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+
 /*QA Section*/
 
 #qa .content.list-group-item.list-group-item-action.choice{
@@ -300,12 +314,7 @@
 	padding: 2rem;
 }
 
-.btn.name {
-	background: #ca8187;
-	padding: 1rem;
-	margin: 1rem;
-	text-align: center;
-}
+
 
 /*#story .content.list-group button:hover {
 	border: 1px #AE4951 solid;
