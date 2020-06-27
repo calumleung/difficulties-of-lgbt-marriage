@@ -164,7 +164,7 @@
 	}
 }
 
-#list-tab-5 a{
+.list-tab-5 a{
 	align-items: center;
 	flex-grow: 1;
 	background: #3c3c3c;
@@ -182,7 +182,7 @@
 }
 
 @media (max-width:768px) {
-	#list-tab-5 a {
+	.list-tab-5 a {
 	width: 100%;
 	border-radius: 40px;
 	}
