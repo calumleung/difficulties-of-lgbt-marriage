@@ -125,6 +125,21 @@
 	border-radius: 20px 20px 0px 0px;
 }
 
+.btn.name.bottom{
+	background-color: #ca8187;
+	color: white;
+	border-color:#ca8187;
+	min-width: 20%;
+	scroll-behavior: auto;
+	width: 100%;
+	margin: 0rem 0rem .1rem .1rem;
+	font-size: 16px;
+	border-radius: 0px 0px 20px 20px;
+}
+
+.backtotop{
+	width: 100%;
+}
 
 /*QA Section*/
 
